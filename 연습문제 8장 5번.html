@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8장5절</title>
+    <style>
+        *{
+            margin: 0px; padding: 0px;
+        }
+        li{
+            list-style-type: none;
+        }
+        @media screen and (orientation : portrait) {
+            div.left{
+                display: none;
+            }
+        }
+        @media screen and (orientation : landscape) {
+            div.left{
+                width: 30%;
+                float: left;
+            }
+            div.right{
+                width: 70%;
+                float:right;
+            }
+        }
+        div.content{
+            padding: 16px;
+        }
+        li{
+            padding: 24px 0px 24px 0px;
+            border-bottom: 1px solid #c7c7c7
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="left">
+            <div class="content">
+                <h1>List</h1>
+                <ul>
+                    <li>짜고 단 음식</li>
+                    <li>간장게장</li>
+                    <li>양념게장</li>
+                    <li>간장치킨</li>
+                    <li>양념치킨</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="content">
+                <h1>Lorem ipsum 
+                </h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni iure labore officia velit fugiat nam et numquam placeat, similique dignissimos excepturi consequatur, perspiciatis sequi consectetur enim voluptates. Ratione, provident fugit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quas obcaecati laudantium debitis neque amet similique eius optio. Cupiditate voluptatibus similique ducimus dolore reprehenderit sapiente cum veritatis eum eveniet maiores!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae reprehenderit non quidem fugit pariatur deleniti repudiandae veritatis rem, tempore quis. Repellendus repellat dolorem, amet obcaecati aperiam magni facilis doloribus nostrum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dicta corrupti reprehenderit illum deserunt cumque fuga? Eveniet, quis, vel quaerat mollitia quos quia, consectetur voluptate ipsam nihil dolorem sint earum?</p>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
